@@ -1,18 +1,11 @@
 import React from "react";
 
-const App = () => {
-  const relativeList = [
-    'Nikhil',
-    'Kittu',
-    'Raju',
-    'Sai'
-  ];
-
+function App () {
   return (
-    <div id="main">
+    <div>
     <ol key="relativeList">
-      <li key="relativeListItem1">{relativeList[0]}</li>
-      <li key="relativeListItem2">{relativeList[1]}</li>
+      <li key="relativeListItem1">Nikhil</li>
+      <li key="relativeListItem2">Nikki</li>
     </ol>          
     </div>
   )
